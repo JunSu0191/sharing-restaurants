@@ -24,10 +24,12 @@ docker-compose -f docker-compose-dev.yml up -d
 
 ``` bash
 cd sharing-restaurants-react
+cp .env.example .env
 npm install
 ```
 
 ### 3. 스프링 부트 서버 실행
 ``` bash
- SpringBoot는 그냥 따로 sharing-restaurants 들어가서 실행할 것
+cd sharing-restaurants
+cp example.application.properties application.properties
 ```
