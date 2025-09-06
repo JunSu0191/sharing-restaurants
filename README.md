@@ -1,12 +1,11 @@
 # 개발 환경 실행 (Spring Boot + React)
 
-## 1. 개발용 Docker Compose 실행
-```bash
-# 프로젝트 루트에서
+### 1. 개발용 Docker Compose 실행
+``` bash
+# 프로젝트 루트에서 도커 데스크탑을 다운 받은 후
 
 # Docker Compose를 사용해 개발용 환경 실행
 docker-compose -f docker-compose-dev.yml up -d
-
 
 # docker-compose -f docker-compose-dev.yml 의 축약 CLI
 # 서비스 시작
@@ -18,3 +17,17 @@ docker-compose -f docker-compose-dev.yml up -d
 # 현재 컨테이너 상태 확인
 ./dev.sh ps
 
+
+
+```
+### 2. git clone 받은 후 리액트 서버 실행
+
+``` bash
+cd sharing-restaurants-react
+npm install
+```
+
+### 3. 스프링 부트 서버 실행
+``` bash
+ SpringBoot는 그냥 따로 sharing-restaurants 들어가서 실행할 것
+```

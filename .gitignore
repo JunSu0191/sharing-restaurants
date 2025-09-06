@@ -1,0 +1,106 @@
+########################
+# OS / 편집기
+########################
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+########################
+# IDE / Tooling
+########################
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+#.vscode/settings.json  # 특정 설정 커밋 원하면 위 .vscode/ 대신 개별 선택
+
+########################
+# Java / Gradle
+########################
+/.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+/out/
+classes/
+hs_err_pid*
+*.log
+
+########################
+# Spring Boot
+########################
+/bin/
+/target/
+/*.jar
+/*.war
+
+########################
+# 프론트엔드 (frontend 폴더)
+########################
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.cache/
+frontend/coverage/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+# 루트에 둘 수도 있는 node 관련
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+########################
+# 테스트 / 리포트
+########################
+/test-output/
+/reports/
+/coverage/
+/jacoco.exec
+/jacoco-report/
+/build/reports/
+/build/test-results/
+
+########################
+# 환경 변수 / 비밀
+########################
+.env
+*.env
+*.env.*
+!.env.example
+application.properties
+# 운영 전용 분리 시(예: application-prod.yml 관리 안 하려면)
+#application-prod.yml
+
+########################
+# Docker / Compose
+########################
+docker-data/
+docker-volume/
+*.pid
+*.seed
+docker-compose.override.yml
+
+########################
+# 기타
+########################
+/tmp/
+/*.tmp
+*.bak
+*.orig
+
+########################
+# IntelliJ Annotation Processing 캐시
+########################
+.annotation-cache/
+
+########################
+# Mac 압축 시 생기는 것
+########################
+__MACOSX/
